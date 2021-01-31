@@ -1,0 +1,85 @@
+<div>
+  <div class="r1"></div>
+  <div class="r2"></div>
+  <div class="finger">
+   <div class="f1"></div>
+   <div class="f2"></div>
+   <div class="f3"></div>
+   <div class="f4"></div>
+  </div>
+   <div class="f5"></div>
+</div>
+<style>
+  .r1 {
+    width: 100px;
+    height:40px;
+    background: #191919;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .r2 {
+    width: 50px;
+    height:50px;
+    background: #191919;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    left: 175px;
+    top: 173px;
+  }
+  .finger div {
+       width: 20px;
+       background: #191919;
+       border-radius: 40px;
+  }
+  .f1 {
+    height: 45px;
+    position: absolute;
+    left: 155px;
+    top: 88px;
+  }
+   .f2 {
+    height:55px;
+    position: absolute;
+    left: 180px;
+    top: 78px;
+  }
+    .f3 {
+    height:45px;
+    position: absolute;
+    left: 205px;
+    top: 88px;
+  }
+   .f4 {
+    height:35px;
+    position: absolute;
+    left: 230px;
+    top: 98px;
+  }
+  .f5 {
+       height:65px;
+       width: 20px;
+       background: #191919;
+       border-radius: 40px;
+       transform: rotate(60deg);
+       position: absolute;
+       left: 152px;
+       top: 105px;
+       border: 5px solid #F9E492;
+
+  }
+  body{
+    background: #F9E492;
+    display: grid;
+    place-items: center;
+    height: 100%
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
