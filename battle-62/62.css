@@ -1,0 +1,74 @@
+<div class="main">
+  <div class="b1"></div>
+  <div class="b2">
+     <div class="c1"></div>
+     <div class="c2"></div>
+     <div class="c3"></div>
+  </div>
+</div>
+<style>
+  .c3{
+    background: #824B20;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    left: 50px;
+    border-radius: 50%; 
+
+  }
+   .c2{
+    background: #E08027;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 40px;
+    left: -100px;
+    border-radius: 50%; 
+  }
+  
+   .c1{
+    background: #FFF58F;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 30px;
+    left: 45px;
+    border-radius: 50%; 
+  }
+  .main{
+    display: grid;
+    place-items: center;
+    height: 100%
+  }
+  .b1 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 42px;
+    background: #dd6b4d;
+    border-radius: 50%; 
+    background: #F2AD43
+  }
+  .b2 {
+    width: 150px;
+    height: 140px;
+    background: #dd6b4d;
+    border-radius: 10%;
+    position: relative;
+    top: -48px;
+    background: #F2AD43;
+    clip-path: inset(0px 0px round 15%);
+  }
+  body {
+    background : #191919
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
