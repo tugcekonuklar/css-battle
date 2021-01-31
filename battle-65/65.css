@@ -1,0 +1,100 @@
+<div class="r1"></div>
+<div class="r2"></div>
+<div class="circles">
+  <div class="c1"></div>
+  <div class="c2"></div>
+  <div class="c3"></div>
+  <div class="c4"></div>
+  <div class="c5"></div>
+  <div class="c6"></div>
+ </div>
+<style>
+  .r1 {
+    width: 58px;
+    height: 50px;
+    background: #5DBCF9;
+    border-radius: 20%;
+    position: absolute;
+    left: 75px;
+    top: 125px;
+  }
+  .r2 {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    border-top: 100px solid transparent;
+    border-right: 100px solid #5DBCF9;
+    border-bottom: 100px solid transparent;
+  }
+  
+  .circles{
+    position: relative;
+    left: 116px;
+    top: 42px;
+  }
+   .c1 {
+    width: 200px;
+    height: 200px;
+    background: #5DBCF9;
+    left: 101px;
+    position: absolute;
+    clip-path: circle(100px at 0 50%);
+  }
+  
+  .c2 {
+    width: 200px;
+    height: 200px;
+    background: #191919;
+    left: 101px;
+    position: absolute;
+    clip-path: circle(90px at 0 50%);
+  }
+  
+    .c3 {
+    width: 200px;
+    height: 200px;
+    background: #5DBCF9;
+    left: 101px;
+    position: absolute;
+    clip-path: circle(75px at 0 50%);
+  }
+    .c4 {
+    width: 200px;
+    height: 200px;
+    background: #191919;
+    left: 101px;
+    position: absolute;
+    clip-path: circle(65px at 0 50%);
+  }
+  
+      .c5 {
+    width: 200px;
+    height: 200px;
+    background: #5DBCF9;
+    left: 101px;
+    position: absolute;
+    clip-path: circle(50px at 0 50%);
+  }
+      .c6 {
+    width: 200px;
+    height: 200px;
+    background: #191919;
+    left: 101px;
+    position: absolute;
+    clip-path: circle(40px at 0 50%);
+  }
+  
+  body{
+    background: #191919;
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
